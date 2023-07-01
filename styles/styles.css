@@ -1,0 +1,99 @@
+body{
+background-color: #d3ab9e
+}
+
+P,
+h1{
+    color: 	#804042;
+    font-family:'Koulen', cursive;}
+h1{
+    text-align: center;
+}
+
+h1{
+    border-style: solid;
+    border-color: #ffd1bd;
+    border-width: 10px;
+    border-radius: 25px;
+    background: #ffd1bd;
+    padding: 20px;
+    width: 300px;
+    height: 50px;
+    margin: auto;
+}
+
+h2{
+    color:	#804042;
+    font-family:'Koulen', cursive;
+    font-size: 22px;
+}
+
+h2{
+text-align: center;
+}
+
+h2{
+    border-style: solid;
+    border-color:#ffd1bd;
+    border-radius:20px;
+    border-width: 10px;
+    background: #ffd1bd;
+    padding: 15px;
+    width: 400px;
+    height: 50px;
+}
+
+h2:hover{
+    opacity: 80%;
+}
+
+form{
+    font-family:'Koulen', cursive;
+    color:black;
+    border-style:solid;
+    border-color: #a55355;
+    border-width: 10px;
+    width: 500px;
+    background-color: #a55355;
+    border-radius:15px;
+}
+
+form:hover{
+    opacity:80%;
+}
+
+#friends-table{
+    border: solid 1px #804042;
+    background-color:#ffd1bd;
+    color:#a55355
+}
+
+#friends-table>thead>tr>th{
+    border: solid 1px #804042;
+}
+
+#friends-table>tbody>tr>th{
+    border: solid 1px #804042;
+}
+
+#friends-table>tbody>tr>td{
+    border: solid 1px #804042;
+}
+
+#friends-table{
+    font-family:'Koulen', cursive;
+    float:right;
+    margin-top: -450px;
+}
+
+#friends-table:hover{
+    opacity:80%;
+}
+
+#img{
+    position: relative;
+}
+#img:hover{
+    opacity: 90%;
+}
+    

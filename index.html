@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/styles.css" />
+    <title>SFU Friends Finder</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Koulen&display=swap" rel="stylesheet">
+</head>
+
+<body>
+<h1>SFU Friends Finder</h1>
+
+
+<h2> Meet someone new today! Take the quiz below:</h2>
+
+<form action ="/action_page.php">
+    <label for="fname">First name</label><br>
+        <input type = "text" id="fname" name = "fname"><br>
+    <label for = "lname">Last name</label><br>
+         <input type = "text"id="lname"name="lname" ><br>
+    <label for = "hobby">Favourite hobby?</label><br>
+        <input type = "text" id = "hobby"name ="hobby"><br>
+Choose your preferred ice cream flavour!<br>
+        <input type ="radio" id="favIcecreamFlavour"name="favIcecreamFlavour" value="Cookies">
+    <label for="favIcecreamFlavour">Cookies and cream</label><br>
+        <input type = "radio" id="favIcecreamFlavour" name="favIcecreamFlavour" value ="Mango">
+    <label for = "favIcecreamFlavour">Mango</label><br>
+        <input type = "radio" id="favIcecreamFlavour" name ="favIcecreamFlavour" value ="Vanila">
+    <label for = "favIcecreamFlavour">Vanilla</label><br>
+ What year are you in at SFU?<br>
+      <input type ="radio" id="undergradYear" name="undergradYear"value="firstYear">
+    <label for ="undergradYear">First Year</label>
+        <input type="radio" id="undergradYear" name="undergradYear"value="secondYear">
+    <label for ="undergradYear">Second Year</label>
+        <input type ="radio" id="undergradYear" name="undergradYear"value="thirdYear">
+    <label for = "undergradYear">Third Year</label>
+         <input type = "radio" id="undergradYear" name="undergradYear"value="fourthYear">
+    <label for ="undergradYear">Fourth Year</label><br> 
+    <br>
+
+                <button id="submit-button" type="button" class="btn btn-primary">Submit</button>
+   <small id="submit" class="form-text text-muted">Submit to add your quiz answers to the table!</small>
+</form>
+
+
+<div class="row">
+    <table id="friends-table" class="table table-hover">
+        <thead>
+          <tr>
+            <th scope="col">First name</th>
+            <th scope="col">Last Name</th>
+            <th scope="col">Favourite hobby </th>
+            <th scope="col">Preferred Icecream Flavour</th>
+            <th scope="col">Year in SFU</th>
+          </tr>
+        </thead>
+        <tbody id="friends-table-body">
+        </tbody>
+      </table>
+</div>
+
+<img src="images/bears-hug-love-you.gif"alt="Bears hugging">
+
+</body>
+</html>
